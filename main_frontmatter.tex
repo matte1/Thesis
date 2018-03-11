@@ -1,0 +1,99 @@
+%
+%
+% UCSD Doctoral Dissertation Template
+% -----------------------------------
+% http://ucsd-thesis.googlecode.com
+%
+%
+
+
+%% REQUIRED FIELDS -- Replace with the values appropriate to you
+
+% No symbols, formulas, superscripts, or Greek letters are allowed
+% in your title.
+\title{Empowering Conservation through Deep Convolutional Neural Networks}
+
+\author{Matthew Epperson}
+\degreeyear{\the\year}
+
+% Master's Degree theses will NOT be formatted properly with this file.
+\degreetitle{Masters of Science}
+
+\field{Electrical and Computer Engineering}
+\specialization{Intelligent Systems, Robotics, and Controls}  % If you have a specialization, add it here
+
+\chair{Nikolay Atanasov}
+% Uncomment the next line iff you have a Co-Chair
+% \cochair{Professor Cochair Semimaster}
+%
+% Or, uncomment the next line iff you have two equal Co-Chairs.
+%\cochairs{Professor Chair Masterish}{Professor Chair Masterish}
+
+%  The rest of the committee members  must be alphabetized by last name.
+\othermembers{
+Ryan Kastner\\
+Curt Schurgers\\
+}
+\numberofmembers{3} % |chair| + |cochair| + |othermembers|
+
+
+%% START THE FRONTMATTER
+%
+\begin{frontmatter}
+
+%% TITLE PAGES
+%
+%  This command generates the title, copyright, and signature pages.
+%
+\makefrontmatter
+
+%% DEDICATION
+%
+%  You have three choices here:
+%    1. Use the ``dedication'' environment.
+%       Put in the text you want, and everything will be formated for
+%       you. You'll get a perfectly respectable dedication page.
+%
+%
+%    2. Use the ``mydedication'' environment.  If you don't like the
+%       formatting of option 1, use this environment and format things
+%       however you wish.
+%
+%    3. If you don't want a dedication, it's not required.
+%
+%
+\begin{dedication}
+  To my parents who have always believed in me even when I didn't believe in myself
+\end{dedication}
+
+%% SETUP THE TABLE OF CONTENTS
+%
+\tableofcontents
+\listoffigures  % Comment if you don't have any figures
+\listoftables   % Comment if you don't have any tables
+
+
+%% ACKNOWLEDGEMENTS
+\begin{acknowledgements}
+Thanks to my wonderful committee that made this thesis possible! It's been a whirlwind ride and I'm grateful to have been able to complete a thesis with three awesome professors!
+
+Thanks to Dr. Kastner and Dr. Curt Schurgers for welcoming me into Engineers for Exploration during my first year. The program has allowed me to embrace two of my greatest passions in life! Thanks to Eric Lo and the other E4E members who were a part of this project.
+
+I would also like to thank Professor Jamie Rotenberg from University of North Carolina Wilmington for supporting the Belize expedition! Without you this thesis would not have been possible. Looking forward to continuing to work together and hopefully meeting in person someday!
+
+\end{acknowledgements}
+
+
+%% ABSTRACT
+%
+%  Doctoral dissertation abstracts should not exceed 350 words.
+%   The abstract may continue to a second page if necessary.
+%
+\begin{abstract}
+
+Aerial imagery presents conservationists and ecologists a powerful tool for noninvasive monitoring of ecosystems and wildlife. The two traditional methods for collecting aerial imagery, manned aircraft and satellites, are tremendously expensive and can suffer from poor resolution or obstruction by weather. Unmanned aerial systems (UAS) present conservationists and ecologists a flexible tool for collecting high resolution imagery at a fraction of the price. In this thesis we asked: Can we take advantage of the sub-meter, high-resolution imagery to detect specific tree species or groups, and use these data as indicators of rainforest functional traits and characteristics? We demonstrate a low-cost method for obtaining high-resolution aerial imagery in a rainforest of Belize using a drone over three sites in two rainforest protected areas. We built a work flow that uses Structure from Motion (SfM) on the drone images to create a large orthomosaic and a Deep Convolutional Neural Network (CNN) to classify indicator tree species. We selected: 1) Cohune Palm (Attalea cohune) as they are indicative of past disturbance and current soil condition; and, 2) the dry-season deciduous tree group since deciduousness is an important ecological factor of rainforest structure and function. This framework serves as a guide for tackling difficult ecological challenges and we show two additionally examples of how a similar architecture can help count wildlife populations in the Antarctic.
+
+\end{abstract}
+
+
+\end{frontmatter}

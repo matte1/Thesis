@@ -479,7 +479,7 @@
     {\bfseries
      {\@title} \par}
     \bigskip \medskip
-    A dissertation submitted in partial satisfaction of the \par
+    A thesis submitted in partial satisfaction of the \par
 	\smallskip
     requirements for the degree \par
 	\smallskip
@@ -489,7 +489,7 @@
     \bigskip \medskip
     {\@field}
     \ifx\@specialization\@isnotdefined \else%
-         (with a specialization in {\@specialization})\fi
+         \\ ({\@specialization})\fi
     \par
     \bigskip \medskip
     by \par
@@ -548,7 +548,7 @@ All rights reserved.}
 \begin{center}
 \vspace{.25in}
 \vspace{\@approvalspace}
-\makebox[4in][l]{\parbox{4in}{\fmfont The dissertation of {\@author}
+\makebox[4in][l]{\parbox{4in}{\fmfont The thesis of {\@author}
 is approved, and it is acceptable in quality and form for publication
 on microfilm and electronically: }}\\
 \begin{tabular*}{4in}[t]{r@{\extracolsep{\fill}}r}
